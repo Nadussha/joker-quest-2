@@ -1,0 +1,20 @@
+<header>
+    <h1 class="infobip-header">На данной странице должно отобразиться окно Infobip LiveChat</h1>
+</header>
+<main>
+    <p>Если ключ чата был правильным образом расшифрован, то на данной странице должно отобразиться окно Infobip LiveChat в правом нижнем углу с приветственным сообщением от бота.</p>
+    <p>Ключ был зашифрован следующим образом:</p>
+    <ul>
+        <li>В качестве первого шага ключ был закодирован при помощи Base64</li>
+        <li>
+            Затем в получившийся строке каждый символ был заменен на обратный в каждом из промежутков
+            <span class="monospace">[A-Z]</span>,
+            <span class="monospace">[a-z]</span>,
+            <span class="monospace">[0-9]</span>.
+            Например
+            <span class="monospace">'G'</span> была преобразована в <span class="monospace">'T'</span>,
+            <span class="monospace">'g'</span> в <span class="monospace">'t'</span>,
+            а <span class="monospace">'3'</span> в <span class="monospace">'6'</span>
+        </li>
+    </ul>
+</main>

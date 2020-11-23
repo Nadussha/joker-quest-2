@@ -1,0 +1,13 @@
+body {
+    font-family: 'Roboto', sans-serif;
+    font-size: 14px;
+}
+
+.infobip-header {
+    text-align: center;
+}
+
+.monospace {
+    font-family: 'Courier New', Courier, monospace;
+    font-weight: bold;
+}
